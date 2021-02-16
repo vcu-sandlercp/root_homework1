@@ -4,8 +4,8 @@
 def return_number_3():
     """ This function should return an integer with the value of 3"""
 
-    return_value = 3
-    return return_value
+    return_number_3 = 3
+    return return_number_3
 
 
 def return_string_vcu():
