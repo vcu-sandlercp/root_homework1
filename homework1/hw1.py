@@ -4,8 +4,8 @@
 def return_number_3():
     """ This function should return an integer with the value of 3"""
 
-    return_number_3 = 3
-    return return_number_3
+    return_value = 3
+    return return_value
 
 
 def return_string_vcu():
@@ -19,15 +19,16 @@ def return_lowercased_string(input_string):
     """You have a variable called input_string that is of type string.
     Return it but the lowercase version of it."""
 
-    return_value = input_string
-    return return_value.lower
+    input_string = "this is a lowercase string"
+    return_value = input_string.lower
+    return return_value
 
 
 def return_without_starting_ending_whitespace(input_string):
     """You have a variable called input_string that is of type string.
     Return it but with the surrounding (left and right) whitespace stripped."""
 
-     input_string = "   testing string with whitespace   "
+    input_string = "   testing string with whitespace   "
     return input_string.strip
 
 
